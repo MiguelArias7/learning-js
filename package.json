@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MiguelArias7/learning-js/issues"
   },
-  "homepage": "https://github.com/MiguelArias7/learning-js#readme"
+  "homepage": "https://github.com/MiguelArias7/learning-js#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
