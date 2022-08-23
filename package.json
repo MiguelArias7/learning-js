@@ -4,7 +4,7 @@
   "description": "Learning LS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/MiguelArias7/learning-js#readme",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "type": "module"
 }
