@@ -1,3 +1,12 @@
+import fetch from 'node-fetch';
+const apiUrl = 'https://api.escuelajs.co/api/v1';
+
+async function fetchData(api) {
+  const response = await fetch(api);
+  const data = await response.json();
+  return data;
+}
+
 const fnPromise = () => {
   return new Promise((resolve, reject) => {
     if (true) {
@@ -13,6 +22,9 @@ async function fnAsync() {
   console.log('End of execution');
 }
 
-console.log('Init');
-fnAsync();
-console.log('End');
+//Test async and promises
+// console.log('Init');
+// fnAsync();
+// console.log('End');
+
+console.log(await fetchData(`${apiUrl}/products`));
