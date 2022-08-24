@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/index.js",
-    "gh-pages": "gh-pages -d src/project"
+    "deploy": "gh-pages -d src/project"
   },
   "repository": {
     "type": "git",
